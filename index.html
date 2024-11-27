@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Understanding Climate Change and Air Quality Over the Last Decade">
+    <title>Climate Change and Air Quality Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: hsl(216, 58%, 77%);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #041323;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        ul {
+            margin: 10px 0;
+            padding: 0 20px;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding Climate Change and Air Quality</h1>
+    </header>
+
+    <div class="container">
+        <h2>Authors</h2>
+        <ul>
+            <li><strong>Alin-Gabriel Văduva:</strong> B.Sc. in Economic Informatics, Data Scientist in banking, research interests in ML and generative AI.</li>
+            <li><strong>Mihai Munteanu:</strong> B.Sc. in Statistics, Data Scientist and ML Team Leader, expertise in ML and data visualization.</li>
+            <li><strong>Simona-Vasilica Oprea:</strong> Dual Ph.D. in Power Systems and Economic Informatics, extensive academic and professional contributions.</li>
+            <li><strong>Adela Bâra:</strong> Director of Data Science Excellence Center, author of 19 books and 60+ research papers.</li>
+        </ul>
+
+        <h2>Methodology</h2>
+        <ul>
+            <li><strong>Data Preprocessing:</strong> Meteorological data (2009–2023) for Romania, including air quality, temperature, and humidity.</li>
+            <li><strong>Web Scraping:</strong> Extracted ~7,000 weather articles using Scrapy; processed with OpenAI API to map regions and phenomena.</li>
+            <li><strong>Dataset Integration:</strong> Merged weather data and article insights using date-region keys.</li>
+            <li><strong>Clustering:</strong> Applied K-Prototypes to group mixed numerical and categorical weather data into distinct clusters.</li>
+        </ul>
+
+        <h2>Limitations</h2>
+        <ul>
+            <li>Restricted to Romania; results may not generalize to other regions.</li>
+            <li>Dependent on data quality; errors or missing data could impact accuracy.</li>
+            <li>Focused on a specific period, potentially missing broader trends.</li>
+            <li>Methods like K-Prototypes and statistical tests have inherent weaknesses.</li>
+        </ul>
+
+        <h2>Datasets</h2>
+        <ul>
+            <li><strong>Meteorological Data:</strong> Includes temperature, humidity, and PM10 levels (2009–2023).</li>
+            <li><strong>News Articles:</strong> Weather phenomena narratives extracted from ~7,000 articles.</li>
+            <li><strong>Clustered Data:</strong> Weather conditions grouped by K-Prototypes clustering.</li>
+            <li><strong>Statistical Tests:</strong> Used to analyze trends and relationships, including Mann-Kendall and Spearman correlation.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>This study integrates meteorological and narrative data to analyze air quality trends in Romania, showcasing complex weather interactions but limited by scope, time, and data reliability.</p>
+    </div>
+
+    
+
+</body>
+</html>
